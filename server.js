@@ -58,7 +58,7 @@ const fs = require('fs');
   }
 
   // Loop through pages 1 to 324
-  for (let pageNum = 1; pageNum <= 324; pageNum++) {
+  for (let pageNum = 1; pageNum <= 2; pageNum++) {
     console.log(`Scraping page ${pageNum}`);
     await scrapePage(pageNum);
   }
