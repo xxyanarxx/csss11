@@ -7,9 +7,10 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "puppeteer": "^21.11.0"
+    "puppeteer": "^22.8.2"
   },
   "engines": {
-    "node": "16.x"
-  }
+    "node": ">=16.x"
+  },
+  "license": "MIT"
 }
